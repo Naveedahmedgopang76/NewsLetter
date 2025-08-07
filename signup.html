@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup to my Email Newsletter!</title>
+    <link href="CSS/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup-box">
+        <h1>Stay Updated with Our Newsletter</h1>
+
+        <p>
+          Stay updated with fresh ideas, inspiring content, and the latest news
+          — straight to your inbox.
+        </p>
+
+        <form action="/" method="post">
+          <div class="name-fields">
+            <input
+              type="text"
+              name="FName"
+              placeholder="First Name"
+              required
+              autofocus
+            />
+            <input type="text" name="LtName" placeholder="Last Name" required />
+          </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <button type="submit">Join Now</button>
+        </form>
+
+        <p class="footer-text">Only the good stuff</p>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
