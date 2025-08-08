@@ -36,7 +36,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "police:34f8973502a596ed57d4b08ddc83c917-us13",
+    auth: "police:8afe05233b729bcae4f628dd949cc596-us13",
   };
 
   const request = https.request(url, options, function (response) {
@@ -55,15 +55,9 @@ app.post("/", function (req, res) {
   request.end();
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log("Server in running on port 3000");
 });
 
-// api key
-//623ee54fd3819c9dbc1d0a47e19575a2-us13
-
-//unique id
-//fa8c5d62bf
-
 //api
-//  351ca79cb602a48c1b5a8d2b03d0da12-us13
+//8afe05233b729bcae4f628dd949cc596-us13
